@@ -1,3 +1,5 @@
+'use client';
+
 import Dexie, { type EntityTable } from 'dexie';
 import { VocabularyItem, VocabProgress, GameResult, UserStats } from '../lib/types';
 
