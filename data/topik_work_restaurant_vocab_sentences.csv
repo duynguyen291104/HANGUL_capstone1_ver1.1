@@ -1,0 +1,581 @@
+﻿type,stt,category,ko,vi
+VOCAB,1,Khu vực & nhân sự,주방,Bếp (khu vực nấu)
+VOCAB,2,Khu vực & nhân sự,홀,Khu phục vụ (sảnh/nhà hàng)
+VOCAB,3,Khu vực & nhân sự,카운터,Quầy (quầy thu ngân/quầy phục vụ)
+VOCAB,4,Khu vực & nhân sự,세척실,Khu rửa/ khu rửa chén
+VOCAB,5,Khu vực & nhân sự,준비대,Bàn sơ chế
+VOCAB,6,Khu vực & nhân sự,조리대,Bàn nấu / quầy bếp
+VOCAB,7,Khu vực & nhân sự,배식대,Quầy ra món
+VOCAB,8,Khu vực & nhân sự,창고,Kho
+VOCAB,9,Khu vực & nhân sự,냉장실,Phòng lạnh / ngăn mát
+VOCAB,10,Khu vực & nhân sự,냉동실,Ngăn đông / phòng đông
+VOCAB,11,Khu vực & nhân sự,출입구,Cửa ra vào
+VOCAB,12,Khu vực & nhân sự,테이블,Bàn ăn
+VOCAB,13,Khu vực & nhân sự,화장실,Nhà vệ sinh
+VOCAB,14,Khu vực & nhân sự,휴게실,Phòng nghỉ
+VOCAB,15,Khu vực & nhân sự,사장님,Ông/bà chủ
+VOCAB,16,Khu vực & nhân sự,매니저,Quản lý
+VOCAB,17,Khu vực & nhân sự,주방장,Bếp trưởng
+VOCAB,18,Khu vực & nhân sự,조리사,Đầu bếp
+VOCAB,19,Khu vực & nhân sự,주방 보조,Phụ bếp
+VOCAB,20,Khu vực & nhân sự,홀서빙,Nhân viên phục vụ bàn
+VOCAB,21,Khu vực & nhân sự,알바,Làm thêm/part-time
+VOCAB,22,Dụng cụ & thiết bị,식기,Đồ ăn/đồ dùng ăn uống
+VOCAB,23,Dụng cụ & thiết bị,그릇,Bát/tô
+VOCAB,24,Dụng cụ & thiết bị,접시,Đĩa
+VOCAB,25,Dụng cụ & thiết bị,밥그릇,Bát cơm
+VOCAB,26,Dụng cụ & thiết bị,국그릇,Bát canh
+VOCAB,27,Dụng cụ & thiết bị,수저,Thìa + đũa (bộ)
+VOCAB,28,Dụng cụ & thiết bị,숟가락,Thìa
+VOCAB,29,Dụng cụ & thiết bị,젓가락,Đũa
+VOCAB,30,Dụng cụ & thiết bị,포크,Nĩa
+VOCAB,31,Dụng cụ & thiết bị,나이프,Dao ăn
+VOCAB,32,Dụng cụ & thiết bị,컵,Cốc
+VOCAB,33,Dụng cụ & thiết bị,쟁반,Khay
+VOCAB,34,Dụng cụ & thiết bị,트레이,Khay bưng
+VOCAB,35,Dụng cụ & thiết bị,뚜껑,Nắp
+VOCAB,36,Dụng cụ & thiết bị,냄비,Nồi
+VOCAB,37,Dụng cụ & thiết bị,프라이팬,Chảo
+VOCAB,38,Dụng cụ & thiết bị,웍,Chảo wok
+VOCAB,39,Dụng cụ & thiết bị,국자,Muôi/vá canh
+VOCAB,40,Dụng cụ & thiết bị,뒤집개,Xẻng lật
+VOCAB,41,Dụng cụ & thiết bị,집게,Kẹp gắp
+VOCAB,42,Dụng cụ & thiết bị,도마,Thớt
+VOCAB,43,Dụng cụ & thiết bị,칼,Dao
+VOCAB,44,Dụng cụ & thiết bị,가위,Kéo
+VOCAB,45,Dụng cụ & thiết bị,계량컵,Cốc đong
+VOCAB,46,Dụng cụ & thiết bị,저울,Cân
+VOCAB,47,Dụng cụ & thiết bị,온도계,Nhiệt kế
+VOCAB,48,Dụng cụ & thiết bị,보관용기,Hộp bảo quản
+VOCAB,49,Dụng cụ & thiết bị,지퍼백,Túi zip
+VOCAB,50,Dụng cụ & thiết bị,랩,Màng bọc thực phẩm
+VOCAB,51,Dụng cụ & thiết bị,호일,Giấy bạc
+VOCAB,52,Dụng cụ & thiết bị,냅킨,Khăn giấy ăn
+VOCAB,53,Dụng cụ & thiết bị,물티슈,Khăn ướt
+VOCAB,54,Dụng cụ & thiết bị,행주,Khăn lau bếp
+VOCAB,55,Dụng cụ & thiết bị,수세미,Miếng rửa chén
+VOCAB,56,Dụng cụ & thiết bị,세제,Nước rửa chén/chất tẩy
+VOCAB,57,Dụng cụ & thiết bị,표백제,Chất tẩy trắng
+VOCAB,58,Dụng cụ & thiết bị,소독제,Chất khử trùng
+VOCAB,59,Dụng cụ & thiết bị,고무장갑,Găng tay cao su
+VOCAB,60,Dụng cụ & thiết bị,비닐장갑,Găng tay nylon
+VOCAB,61,Dụng cụ & thiết bị,앞치마,Tạp dề
+VOCAB,62,Dụng cụ & thiết bị,위생모,Mũ vệ sinh
+VOCAB,63,Dụng cụ & thiết bị,머리망,Lưới trùm tóc
+VOCAB,64,Dụng cụ & thiết bị,쓰레기통,Thùng rác
+VOCAB,65,Dụng cụ & thiết bị,음식물쓰레기통,Thùng rác thực phẩm
+VOCAB,66,Dụng cụ & thiết bị,분리수거함,Thùng phân loại rác
+VOCAB,67,Dụng cụ & thiết bị,걸레,Giẻ lau sàn
+VOCAB,68,Dụng cụ & thiết bị,대걸레,Cây lau nhà
+VOCAB,69,Dụng cụ & thiết bị,빗자루,Chổi
+VOCAB,70,Dụng cụ & thiết bị,쓰레받기,Hót rác
+VOCAB,71,Dụng cụ & thiết bị,식기세척기,Máy rửa chén
+VOCAB,72,Dụng cụ & thiết bị,건조대,Giá hong
+VOCAB,73,Dụng cụ & thiết bị,후드,Máy hút mùi
+VOCAB,74,Dụng cụ & thiết bị,가스레인지,Bếp gas
+VOCAB,75,Dụng cụ & thiết bị,인덕션,Bếp từ
+VOCAB,76,Dụng cụ & thiết bị,오븐,Lò nướng
+VOCAB,77,Dụng cụ & thiết bị,전자레인지,Lò vi sóng
+VOCAB,78,Dụng cụ & thiết bị,냉장고,Tủ lạnh
+VOCAB,79,Dụng cụ & thiết bị,냉동고,Tủ đông
+VOCAB,80,Dụng cụ & thiết bị,밥솥,Nồi cơm điện
+VOCAB,81,Dụng cụ & thiết bị,정수기,Máy lọc nước
+VOCAB,82,Dụng cụ & thiết bị,커피머신,Máy pha cà phê
+VOCAB,83,Dụng cụ & thiết bị,제빙기,Máy làm đá
+VOCAB,84,Dụng cụ & thiết bị,포스기,Máy POS
+VOCAB,85,Dụng cụ & thiết bị,영수증 프린터,Máy in hóa đơn
+VOCAB,86,Nguyên liệu,쌀,Gạo
+VOCAB,87,Nguyên liệu,밥,Cơm
+VOCAB,88,Nguyên liệu,면,Mì
+VOCAB,89,Nguyên liệu,고기,Thịt
+VOCAB,90,Nguyên liệu,소고기,Thịt bò
+VOCAB,91,Nguyên liệu,돼지고기,Thịt heo
+VOCAB,92,Nguyên liệu,닭고기,Thịt gà
+VOCAB,93,Nguyên liệu,생선,Cá
+VOCAB,94,Nguyên liệu,새우,Tôm
+VOCAB,95,Nguyên liệu,오징어,Mực
+VOCAB,96,Nguyên liệu,달걀,Trứng
+VOCAB,97,Nguyên liệu,두부,Đậu hũ
+VOCAB,98,Nguyên liệu,김치,Kim chi
+VOCAB,99,Nguyên liệu,양배추,Bắp cải
+VOCAB,100,Nguyên liệu,양파,Hành tây
+VOCAB,101,Nguyên liệu,대파,Hành lá (boa-rô)
+VOCAB,102,Nguyên liệu,마늘,Tỏi
+VOCAB,103,Nguyên liệu,생강,Gừng
+VOCAB,104,Nguyên liệu,감자,Khoai tây
+VOCAB,105,Nguyên liệu,당근,Cà rốt
+VOCAB,106,Nguyên liệu,오이,Dưa leo
+VOCAB,107,Nguyên liệu,버섯,Nấm
+VOCAB,108,Nguyên liệu,상추,Xà lách
+VOCAB,109,Nguyên liệu,고추,Ớt
+VOCAB,110,Nguyên liệu,고춧가루,Bột ớt
+VOCAB,111,Nguyên liệu,소금,Muối
+VOCAB,112,Nguyên liệu,후추,Tiêu
+VOCAB,113,Nguyên liệu,설탕,Đường
+VOCAB,114,Nguyên liệu,간장,Nước tương
+VOCAB,115,Nguyên liệu,식초,Giấm
+VOCAB,116,Nguyên liệu,고추장,Tương ớt
+VOCAB,117,Nguyên liệu,된장,Tương đậu
+VOCAB,118,Nguyên liệu,참기름,Dầu mè
+VOCAB,119,Nguyên liệu,식용유,Dầu ăn
+VOCAB,120,Nguyên liệu,물,Nước
+VOCAB,121,Nguyên liệu,얼음,Đá
+VOCAB,122,Nguyên liệu,육수,Nước dùng
+VOCAB,123,Nguyên liệu,반찬,Món phụ
+VOCAB,124,Nguyên liệu,소스,Sốt
+VOCAB,125,Nguyên liệu,양념,Gia vị
+VOCAB,126,Nguyên liệu,밀가루,Bột mì
+VOCAB,127,Nguyên liệu,전분,Tinh bột
+VOCAB,128,Nguyên liệu,빵가루,Bột chiên xù
+VOCAB,129,Hành động,씻다,Rửa
+VOCAB,130,Hành động,헹구다,Tráng
+VOCAB,131,Hành động,담그다,Ngâm
+VOCAB,132,Hành động,닦다,Lau/chùi
+VOCAB,133,Hành động,정리하다,Sắp xếp/dọn
+VOCAB,134,Hành động,치우다,Dọn đi
+VOCAB,135,Hành động,썰다,Thái
+VOCAB,136,Hành động,채 썰다,Thái sợi
+VOCAB,137,Hành động,다지다,Băm
+VOCAB,138,Hành động,양념하다,Ướp/nêm
+VOCAB,139,Hành động,간을 맞추다,Nêm vừa vị
+VOCAB,140,Hành động,맛보다,Nếm
+VOCAB,141,Hành động,끓이다,Đun sôi/nấu
+VOCAB,142,Hành động,삶다,Luộc
+VOCAB,143,Hành động,찌다,Hấp
+VOCAB,144,Hành động,볶다,Xào
+VOCAB,145,Hành động,튀기다,Chiên
+VOCAB,146,Hành động,굽다,Nướng
+VOCAB,147,Hành động,데치다,Chần
+VOCAB,148,Hành động,데우다,Hâm nóng
+VOCAB,149,Hành động,식히다,Làm nguội
+VOCAB,150,Hành động,해동하다,Rã đông
+VOCAB,151,Hành động,포장하다,Đóng gói
+VOCAB,152,Hành động,준비하다,Chuẩn bị
+VOCAB,153,Hành động,서빙하다,Phục vụ món
+VOCAB,154,Hành động,주문받다,Nhận order
+VOCAB,155,Hành động,계산하다,Tính tiền
+VOCAB,156,Hành động,확인하다,Kiểm tra
+VOCAB,157,Hành động,보충하다,Bổ sung
+VOCAB,158,Hành động,교체하다,Thay mới
+VOCAB,159,Phục vụ & thu ngân,메뉴,Thực đơn
+VOCAB,160,Phục vụ & thu ngân,메뉴판,Menu (bảng)
+VOCAB,161,Phục vụ & thu ngân,추천 메뉴,Món gợi ý
+VOCAB,162,Phục vụ & thu ngân,주문,Gọi món/đơn hàng
+VOCAB,163,Phục vụ & thu ngân,추가 주문,Gọi thêm
+VOCAB,164,Phục vụ & thu ngân,예약,Đặt chỗ
+VOCAB,165,Phục vụ & thu ngân,대기,Chờ
+VOCAB,166,Phục vụ & thu ngân,테이블 번호,Số bàn
+VOCAB,167,Phục vụ & thu ngân,테이블 세팅,Set bàn
+VOCAB,168,Phục vụ & thu ngân,리필,Refill
+VOCAB,169,Phục vụ & thu ngân,포장,Mang về/đóng gói
+VOCAB,170,Phục vụ & thu ngân,테이크아웃,Take-out
+VOCAB,171,Phục vụ & thu ngân,배달,Giao hàng
+VOCAB,172,Phục vụ & thu ngân,계산,Thanh toán
+VOCAB,173,Phục vụ & thu ngân,현금,Tiền mặt
+VOCAB,174,Phục vụ & thu ngân,카드,Thẻ
+VOCAB,175,Phục vụ & thu ngân,카드 결제,Thanh toán bằng thẻ
+VOCAB,176,Phục vụ & thu ngân,영수증,Hóa đơn
+VOCAB,177,Phục vụ & thu ngân,할인,Giảm giá
+VOCAB,178,Phục vụ & thu ngân,쿠폰,Phiếu giảm giá
+VOCAB,179,Phục vụ & thu ngân,알레르기,Dị ứng
+VOCAB,180,Phục vụ & thu ngân,맵기,Độ cay
+VOCAB,181,Phục vụ & thu ngân,덜 맵게,Ít cay hơn
+VOCAB,182,Phục vụ & thu ngân,더 맵게,Cay hơn
+VOCAB,183,Phục vụ & thu ngân,소스 추가,Thêm sốt
+VOCAB,184,Phục vụ & thu ngân,반찬 리필,Thêm món phụ
+VOCAB,185,An toàn & ca làm,위생,Vệ sinh
+VOCAB,186,An toàn & ca làm,손 씻기,Rửa tay
+VOCAB,187,An toàn & ca làm,손소독,Khử trùng tay
+VOCAB,188,An toàn & ca làm,미끄럼 주의,Cẩn thận trơn trượt
+VOCAB,189,An toàn & ca làm,화상,Bỏng
+VOCAB,190,An toàn & ca làm,응급처치,Sơ cứu
+VOCAB,191,An toàn & ca làm,소화기,Bình chữa cháy
+VOCAB,192,An toàn & ca làm,유통기한,Hạn sử dụng
+VOCAB,193,An toàn & ca làm,출근,Đi làm/đến ca
+VOCAB,194,An toàn & ca làm,퇴근,Tan ca
+VOCAB,195,An toàn & ca làm,교대,Đổi ca
+VOCAB,196,An toàn & ca làm,야간,Ca đêm
+VOCAB,197,An toàn & ca làm,휴게시간,Giờ nghỉ
+VOCAB,198,An toàn & ca làm,지각,Đi trễ
+VOCAB,199,An toàn & ca làm,연장근무,Làm thêm giờ
+VOCAB,200,An toàn & ca làm,시급,Lương theo giờ
+VOCAB,201,Cụm từ thực hành,접시를 닦다,lau đĩa
+VOCAB,202,Cụm từ thực hành,접시를 씻다,rửa đĩa
+VOCAB,203,Cụm từ thực hành,접시를 헹구다,tráng đĩa
+VOCAB,204,Cụm từ thực hành,접시를 정리하다,dọn/sắp xếp đĩa
+VOCAB,205,Cụm từ thực hành,접시를 치우다,dọn đi đĩa
+VOCAB,206,Cụm từ thực hành,접시를 버리다,vứt đĩa
+VOCAB,207,Cụm từ thực hành,접시를 담다,đựng/múc đĩa
+VOCAB,208,Cụm từ thực hành,접시를 채우다,bổ sung/đổ đầy đĩa
+VOCAB,209,Cụm từ thực hành,접시를 비우다,làm trống đĩa
+VOCAB,210,Cụm từ thực hành,접시를 꺼내다,lấy ra đĩa
+VOCAB,211,Cụm từ thực hành,접시를 넣다,cho vào đĩa
+VOCAB,212,Cụm từ thực hành,접시를 옮기다,chuyển đĩa
+VOCAB,213,Cụm từ thực hành,접시를 확인하다,kiểm tra đĩa
+VOCAB,214,Cụm từ thực hành,접시를 교체하다,thay đĩa
+VOCAB,215,Cụm từ thực hành,접시를 보충하다,bổ sung đĩa
+VOCAB,216,Cụm từ thực hành,접시를 세척하다,rửa sạch đĩa
+VOCAB,217,Cụm từ thực hành,접시를 소독하다,khử trùng đĩa
+VOCAB,218,Cụm từ thực hành,접시를 건조하다,hong khô đĩa
+VOCAB,219,Cụm từ thực hành,접시를 점검하다,kiểm tra đĩa
+VOCAB,220,Cụm từ thực hành,그릇을 닦다,lau bát/tô
+VOCAB,221,Cụm từ thực hành,그릇을 씻다,rửa bát/tô
+VOCAB,222,Cụm từ thực hành,그릇을 헹구다,tráng bát/tô
+VOCAB,223,Cụm từ thực hành,그릇을 정리하다,dọn/sắp xếp bát/tô
+VOCAB,224,Cụm từ thực hành,그릇을 치우다,dọn đi bát/tô
+VOCAB,225,Cụm từ thực hành,그릇을 버리다,vứt bát/tô
+VOCAB,226,Cụm từ thực hành,그릇을 담다,đựng/múc bát/tô
+VOCAB,227,Cụm từ thực hành,그릇을 채우다,bổ sung/đổ đầy bát/tô
+VOCAB,228,Cụm từ thực hành,그릇을 비우다,làm trống bát/tô
+VOCAB,229,Cụm từ thực hành,그릇을 꺼내다,lấy ra bát/tô
+VOCAB,230,Cụm từ thực hành,그릇을 넣다,cho vào bát/tô
+VOCAB,231,Cụm từ thực hành,그릇을 옮기다,chuyển bát/tô
+VOCAB,232,Cụm từ thực hành,그릇을 확인하다,kiểm tra bát/tô
+VOCAB,233,Cụm từ thực hành,그릇을 교체하다,thay bát/tô
+VOCAB,234,Cụm từ thực hành,그릇을 보충하다,bổ sung bát/tô
+VOCAB,235,Cụm từ thực hành,그릇을 세척하다,rửa sạch bát/tô
+VOCAB,236,Cụm từ thực hành,그릇을 소독하다,khử trùng bát/tô
+VOCAB,237,Cụm từ thực hành,그릇을 건조하다,hong khô bát/tô
+VOCAB,238,Cụm từ thực hành,그릇을 점검하다,kiểm tra bát/tô
+VOCAB,239,Cụm từ thực hành,컵을 닦다,lau cốc
+VOCAB,240,Cụm từ thực hành,컵을 씻다,rửa cốc
+VOCAB,241,Cụm từ thực hành,컵을 헹구다,tráng cốc
+VOCAB,242,Cụm từ thực hành,컵을 정리하다,dọn/sắp xếp cốc
+VOCAB,243,Cụm từ thực hành,컵을 치우다,dọn đi cốc
+VOCAB,244,Cụm từ thực hành,컵을 버리다,vứt cốc
+VOCAB,245,Cụm từ thực hành,컵을 담다,đựng/múc cốc
+VOCAB,246,Cụm từ thực hành,컵을 채우다,bổ sung/đổ đầy cốc
+VOCAB,247,Cụm từ thực hành,컵을 비우다,làm trống cốc
+VOCAB,248,Cụm từ thực hành,컵을 꺼내다,lấy ra cốc
+VOCAB,249,Cụm từ thực hành,컵을 넣다,cho vào cốc
+VOCAB,250,Cụm từ thực hành,컵을 옮기다,chuyển cốc
+VOCAB,251,Cụm từ thực hành,컵을 확인하다,kiểm tra cốc
+VOCAB,252,Cụm từ thực hành,컵을 교체하다,thay cốc
+VOCAB,253,Cụm từ thực hành,컵을 보충하다,bổ sung cốc
+VOCAB,254,Cụm từ thực hành,컵을 세척하다,rửa sạch cốc
+VOCAB,255,Cụm từ thực hành,컵을 소독하다,khử trùng cốc
+VOCAB,256,Cụm từ thực hành,컵을 건조하다,hong khô cốc
+VOCAB,257,Cụm từ thực hành,컵을 점검하다,kiểm tra cốc
+VOCAB,258,Cụm từ thực hành,수저를 닦다,lau thìa đũa
+VOCAB,259,Cụm từ thực hành,수저를 씻다,rửa thìa đũa
+VOCAB,260,Cụm từ thực hành,수저를 헹구다,tráng thìa đũa
+VOCAB,261,Cụm từ thực hành,수저를 정리하다,dọn/sắp xếp thìa đũa
+VOCAB,262,Cụm từ thực hành,수저를 치우다,dọn đi thìa đũa
+VOCAB,263,Cụm từ thực hành,수저를 버리다,vứt thìa đũa
+VOCAB,264,Cụm từ thực hành,수저를 담다,đựng/múc thìa đũa
+VOCAB,265,Cụm từ thực hành,수저를 채우다,bổ sung/đổ đầy thìa đũa
+VOCAB,266,Cụm từ thực hành,수저를 비우다,làm trống thìa đũa
+VOCAB,267,Cụm từ thực hành,수저를 꺼내다,lấy ra thìa đũa
+VOCAB,268,Cụm từ thực hành,수저를 넣다,cho vào thìa đũa
+VOCAB,269,Cụm từ thực hành,수저를 옮기다,chuyển thìa đũa
+VOCAB,270,Cụm từ thực hành,수저를 확인하다,kiểm tra thìa đũa
+VOCAB,271,Cụm từ thực hành,수저를 교체하다,thay thìa đũa
+VOCAB,272,Cụm từ thực hành,수저를 보충하다,bổ sung thìa đũa
+VOCAB,273,Cụm từ thực hành,수저를 세척하다,rửa sạch thìa đũa
+VOCAB,274,Cụm từ thực hành,수저를 소독하다,khử trùng thìa đũa
+VOCAB,275,Cụm từ thực hành,수저를 건조하다,hong khô thìa đũa
+VOCAB,276,Cụm từ thực hành,수저를 점검하다,kiểm tra thìa đũa
+VOCAB,277,Cụm từ thực hành,쟁반을 닦다,lau khay
+VOCAB,278,Cụm từ thực hành,쟁반을 씻다,rửa khay
+VOCAB,279,Cụm từ thực hành,쟁반을 헹구다,tráng khay
+VOCAB,280,Cụm từ thực hành,쟁반을 정리하다,dọn/sắp xếp khay
+VOCAB,281,Cụm từ thực hành,쟁반을 치우다,dọn đi khay
+VOCAB,282,Cụm từ thực hành,쟁반을 버리다,vứt khay
+VOCAB,283,Cụm từ thực hành,쟁반을 담다,đựng/múc khay
+VOCAB,284,Cụm từ thực hành,쟁반을 채우다,bổ sung/đổ đầy khay
+VOCAB,285,Cụm từ thực hành,쟁반을 비우다,làm trống khay
+VOCAB,286,Cụm từ thực hành,쟁반을 꺼내다,lấy ra khay
+VOCAB,287,Cụm từ thực hành,쟁반을 넣다,cho vào khay
+VOCAB,288,Cụm từ thực hành,쟁반을 옮기다,chuyển khay
+VOCAB,289,Cụm từ thực hành,쟁반을 확인하다,kiểm tra khay
+VOCAB,290,Cụm từ thực hành,쟁반을 교체하다,thay khay
+VOCAB,291,Cụm từ thực hành,쟁반을 보충하다,bổ sung khay
+VOCAB,292,Cụm từ thực hành,쟁반을 세척하다,rửa sạch khay
+VOCAB,293,Cụm từ thực hành,쟁반을 소독하다,khử trùng khay
+VOCAB,294,Cụm từ thực hành,쟁반을 건조하다,hong khô khay
+VOCAB,295,Cụm từ thực hành,쟁반을 점검하다,kiểm tra khay
+VOCAB,296,Cụm từ thực hành,테이블을 닦다,lau bàn
+VOCAB,297,Cụm từ thực hành,테이블을 씻다,rửa bàn
+VOCAB,298,Cụm từ thực hành,테이블을 헹구다,tráng bàn
+VOCAB,299,Cụm từ thực hành,테이블을 정리하다,dọn/sắp xếp bàn
+VOCAB,300,Cụm từ thực hành,테이블을 치우다,dọn đi bàn
+VOCAB,301,Cụm từ thực hành,테이블을 버리다,vứt bàn
+VOCAB,302,Cụm từ thực hành,테이블을 담다,đựng/múc bàn
+VOCAB,303,Cụm từ thực hành,테이블을 채우다,bổ sung/đổ đầy bàn
+VOCAB,304,Cụm từ thực hành,테이블을 비우다,làm trống bàn
+VOCAB,305,Cụm từ thực hành,테이블을 꺼내다,lấy ra bàn
+VOCAB,306,Cụm từ thực hành,테이블을 넣다,cho vào bàn
+VOCAB,307,Cụm từ thực hành,테이블을 옮기다,chuyển bàn
+VOCAB,308,Cụm từ thực hành,테이블을 확인하다,kiểm tra bàn
+VOCAB,309,Cụm từ thực hành,테이블을 교체하다,thay bàn
+VOCAB,310,Cụm từ thực hành,테이블을 보충하다,bổ sung bàn
+VOCAB,311,Cụm từ thực hành,테이블을 세척하다,rửa sạch bàn
+VOCAB,312,Cụm từ thực hành,테이블을 소독하다,khử trùng bàn
+VOCAB,313,Cụm từ thực hành,테이블을 건조하다,hong khô bàn
+VOCAB,314,Cụm từ thực hành,테이블을 점검하다,kiểm tra bàn
+VOCAB,315,Cụm từ thực hành,의자를 닦다,lau ghế
+VOCAB,316,Cụm từ thực hành,의자를 씻다,rửa ghế
+VOCAB,317,Cụm từ thực hành,의자를 헹구다,tráng ghế
+VOCAB,318,Cụm từ thực hành,의자를 정리하다,dọn/sắp xếp ghế
+VOCAB,319,Cụm từ thực hành,의자를 치우다,dọn đi ghế
+VOCAB,320,Cụm từ thực hành,의자를 버리다,vứt ghế
+VOCAB,321,Cụm từ thực hành,의자를 담다,đựng/múc ghế
+VOCAB,322,Cụm từ thực hành,의자를 채우다,bổ sung/đổ đầy ghế
+VOCAB,323,Cụm từ thực hành,의자를 비우다,làm trống ghế
+VOCAB,324,Cụm từ thực hành,의자를 꺼내다,lấy ra ghế
+VOCAB,325,Cụm từ thực hành,의자를 넣다,cho vào ghế
+VOCAB,326,Cụm từ thực hành,의자를 옮기다,chuyển ghế
+VOCAB,327,Cụm từ thực hành,의자를 확인하다,kiểm tra ghế
+VOCAB,328,Cụm từ thực hành,의자를 교체하다,thay ghế
+VOCAB,329,Cụm từ thực hành,의자를 보충하다,bổ sung ghế
+VOCAB,330,Cụm từ thực hành,의자를 세척하다,rửa sạch ghế
+VOCAB,331,Cụm từ thực hành,의자를 소독하다,khử trùng ghế
+VOCAB,332,Cụm từ thực hành,의자를 건조하다,hong khô ghế
+VOCAB,333,Cụm từ thực hành,의자를 점검하다,kiểm tra ghế
+VOCAB,334,Cụm từ thực hành,바닥을 닦다,lau sàn
+VOCAB,335,Cụm từ thực hành,바닥을 씻다,rửa sàn
+VOCAB,336,Cụm từ thực hành,바닥을 헹구다,tráng sàn
+VOCAB,337,Cụm từ thực hành,바닥을 정리하다,dọn/sắp xếp sàn
+VOCAB,338,Cụm từ thực hành,바닥을 치우다,dọn đi sàn
+VOCAB,339,Cụm từ thực hành,바닥을 버리다,vứt sàn
+VOCAB,340,Cụm từ thực hành,바닥을 담다,đựng/múc sàn
+VOCAB,341,Cụm từ thực hành,바닥을 채우다,bổ sung/đổ đầy sàn
+VOCAB,342,Cụm từ thực hành,바닥을 비우다,làm trống sàn
+VOCAB,343,Cụm từ thực hành,바닥을 꺼내다,lấy ra sàn
+VOCAB,344,Cụm từ thực hành,바닥을 넣다,cho vào sàn
+VOCAB,345,Cụm từ thực hành,바닥을 옮기다,chuyển sàn
+VOCAB,346,Cụm từ thực hành,바닥을 확인하다,kiểm tra sàn
+VOCAB,347,Cụm từ thực hành,바닥을 교체하다,thay sàn
+VOCAB,348,Cụm từ thực hành,바닥을 보충하다,bổ sung sàn
+VOCAB,349,Cụm từ thực hành,바닥을 세척하다,rửa sạch sàn
+VOCAB,350,Cụm từ thực hành,바닥을 소독하다,khử trùng sàn
+VOCAB,351,Cụm từ thực hành,바닥을 건조하다,hong khô sàn
+VOCAB,352,Cụm từ thực hành,바닥을 점검하다,kiểm tra sàn
+VOCAB,353,Cụm từ thực hành,주방을 닦다,lau bếp
+VOCAB,354,Cụm từ thực hành,주방을 씻다,rửa bếp
+VOCAB,355,Cụm từ thực hành,주방을 헹구다,tráng bếp
+VOCAB,356,Cụm từ thực hành,주방을 정리하다,dọn/sắp xếp bếp
+VOCAB,357,Cụm từ thực hành,주방을 치우다,dọn đi bếp
+VOCAB,358,Cụm từ thực hành,주방을 버리다,vứt bếp
+VOCAB,359,Cụm từ thực hành,주방을 담다,đựng/múc bếp
+VOCAB,360,Cụm từ thực hành,주방을 채우다,bổ sung/đổ đầy bếp
+VOCAB,361,Cụm từ thực hành,주방을 비우다,làm trống bếp
+VOCAB,362,Cụm từ thực hành,주방을 꺼내다,lấy ra bếp
+VOCAB,363,Cụm từ thực hành,주방을 넣다,cho vào bếp
+VOCAB,364,Cụm từ thực hành,주방을 옮기다,chuyển bếp
+VOCAB,365,Cụm từ thực hành,주방을 확인하다,kiểm tra bếp
+VOCAB,366,Cụm từ thực hành,주방을 교체하다,thay bếp
+VOCAB,367,Cụm từ thực hành,주방을 보충하다,bổ sung bếp
+VOCAB,368,Cụm từ thực hành,주방을 세척하다,rửa sạch bếp
+VOCAB,369,Cụm từ thực hành,주방을 소독하다,khử trùng bếp
+VOCAB,370,Cụm từ thực hành,주방을 건조하다,hong khô bếp
+VOCAB,371,Cụm từ thực hành,주방을 점검하다,kiểm tra bếp
+VOCAB,372,Cụm từ thực hành,홀을 닦다,lau khu phục vụ
+VOCAB,373,Cụm từ thực hành,홀을 씻다,rửa khu phục vụ
+VOCAB,374,Cụm từ thực hành,홀을 헹구다,tráng khu phục vụ
+VOCAB,375,Cụm từ thực hành,홀을 정리하다,dọn/sắp xếp khu phục vụ
+VOCAB,376,Cụm từ thực hành,홀을 치우다,dọn đi khu phục vụ
+VOCAB,377,Cụm từ thực hành,홀을 버리다,vứt khu phục vụ
+VOCAB,378,Cụm từ thực hành,홀을 담다,đựng/múc khu phục vụ
+VOCAB,379,Cụm từ thực hành,홀을 채우다,bổ sung/đổ đầy khu phục vụ
+VOCAB,380,Cụm từ thực hành,홀을 비우다,làm trống khu phục vụ
+VOCAB,381,Cụm từ thực hành,홀을 꺼내다,lấy ra khu phục vụ
+VOCAB,382,Cụm từ thực hành,홀을 넣다,cho vào khu phục vụ
+VOCAB,383,Cụm từ thực hành,홀을 옮기다,chuyển khu phục vụ
+VOCAB,384,Cụm từ thực hành,홀을 확인하다,kiểm tra khu phục vụ
+VOCAB,385,Cụm từ thực hành,홀을 교체하다,thay khu phục vụ
+VOCAB,386,Cụm từ thực hành,홀을 보충하다,bổ sung khu phục vụ
+VOCAB,387,Cụm từ thực hành,홀을 세척하다,rửa sạch khu phục vụ
+VOCAB,388,Cụm từ thực hành,홀을 소독하다,khử trùng khu phục vụ
+VOCAB,389,Cụm từ thực hành,홀을 건조하다,hong khô khu phục vụ
+VOCAB,390,Cụm từ thực hành,홀을 점검하다,kiểm tra khu phục vụ
+VOCAB,391,Cụm từ thực hành,카운터를 닦다,lau quầy
+VOCAB,392,Cụm từ thực hành,카운터를 씻다,rửa quầy
+VOCAB,393,Cụm từ thực hành,카운터를 헹구다,tráng quầy
+VOCAB,394,Cụm từ thực hành,카운터를 정리하다,dọn/sắp xếp quầy
+VOCAB,395,Cụm từ thực hành,카운터를 치우다,dọn đi quầy
+VOCAB,396,Cụm từ thực hành,카운터를 버리다,vứt quầy
+VOCAB,397,Cụm từ thực hành,카운터를 담다,đựng/múc quầy
+VOCAB,398,Cụm từ thực hành,카운터를 채우다,bổ sung/đổ đầy quầy
+VOCAB,399,Cụm từ thực hành,카운터를 비우다,làm trống quầy
+VOCAB,400,Cụm từ thực hành,카운터를 꺼내다,lấy ra quầy
+VOCAB,401,Cụm từ thực hành,카운터를 넣다,cho vào quầy
+VOCAB,402,Cụm từ thực hành,카운터를 옮기다,chuyển quầy
+VOCAB,403,Cụm từ thực hành,카운터를 확인하다,kiểm tra quầy
+VOCAB,404,Cụm từ thực hành,카운터를 교체하다,thay quầy
+VOCAB,405,Cụm từ thực hành,카운터를 보충하다,bổ sung quầy
+VOCAB,406,Cụm từ thực hành,카운터를 세척하다,rửa sạch quầy
+VOCAB,407,Cụm từ thực hành,카운터를 소독하다,khử trùng quầy
+VOCAB,408,Cụm từ thực hành,카운터를 건조하다,hong khô quầy
+VOCAB,409,Cụm từ thực hành,카운터를 점검하다,kiểm tra quầy
+VOCAB,410,Cụm từ thực hành,쓰레기를 닦다,lau rác
+VOCAB,411,Cụm từ thực hành,쓰레기를 씻다,rửa rác
+VOCAB,412,Cụm từ thực hành,쓰레기를 헹구다,tráng rác
+VOCAB,413,Cụm từ thực hành,쓰레기를 정리하다,dọn/sắp xếp rác
+VOCAB,414,Cụm từ thực hành,쓰레기를 치우다,dọn đi rác
+VOCAB,415,Cụm từ thực hành,쓰레기를 버리다,vứt rác
+VOCAB,416,Cụm từ thực hành,쓰레기를 담다,đựng/múc rác
+VOCAB,417,Cụm từ thực hành,쓰레기를 채우다,bổ sung/đổ đầy rác
+VOCAB,418,Cụm từ thực hành,쓰레기를 비우다,làm trống rác
+VOCAB,419,Cụm từ thực hành,쓰레기를 꺼내다,lấy ra rác
+VOCAB,420,Cụm từ thực hành,쓰레기를 넣다,cho vào rác
+VOCAB,421,Cụm từ thực hành,쓰레기를 옮기다,chuyển rác
+VOCAB,422,Cụm từ thực hành,쓰레기를 확인하다,kiểm tra rác
+VOCAB,423,Cụm từ thực hành,쓰레기를 교체하다,thay rác
+VOCAB,424,Cụm từ thực hành,쓰레기를 보충하다,bổ sung rác
+VOCAB,425,Cụm từ thực hành,쓰레기를 세척하다,rửa sạch rác
+VOCAB,426,Cụm từ thực hành,쓰레기를 소독하다,khử trùng rác
+VOCAB,427,Cụm từ thực hành,쓰레기를 건조하다,hong khô rác
+VOCAB,428,Cụm từ thực hành,쓰레기를 점검하다,kiểm tra rác
+VOCAB,429,Cụm từ thực hành,음식물쓰레기를 닦다,lau rác thực phẩm
+VOCAB,430,Cụm từ thực hành,음식물쓰레기를 씻다,rửa rác thực phẩm
+VOCAB,431,Cụm từ thực hành,음식물쓰레기를 헹구다,tráng rác thực phẩm
+VOCAB,432,Cụm từ thực hành,음식물쓰레기를 정리하다,dọn/sắp xếp rác thực phẩm
+VOCAB,433,Cụm từ thực hành,음식물쓰레기를 치우다,dọn đi rác thực phẩm
+VOCAB,434,Cụm từ thực hành,음식물쓰레기를 버리다,vứt rác thực phẩm
+VOCAB,435,Cụm từ thực hành,음식물쓰레기를 담다,đựng/múc rác thực phẩm
+VOCAB,436,Cụm từ thực hành,음식물쓰레기를 채우다,bổ sung/đổ đầy rác thực phẩm
+VOCAB,437,Cụm từ thực hành,음식물쓰레기를 비우다,làm trống rác thực phẩm
+VOCAB,438,Cụm từ thực hành,음식물쓰레기를 꺼내다,lấy ra rác thực phẩm
+VOCAB,439,Cụm từ thực hành,음식물쓰레기를 넣다,cho vào rác thực phẩm
+VOCAB,440,Cụm từ thực hành,음식물쓰레기를 옮기다,chuyển rác thực phẩm
+VOCAB,441,Cụm từ thực hành,음식물쓰레기를 확인하다,kiểm tra rác thực phẩm
+VOCAB,442,Cụm từ thực hành,음식물쓰레기를 교체하다,thay rác thực phẩm
+VOCAB,443,Cụm từ thực hành,음식물쓰레기를 보충하다,bổ sung rác thực phẩm
+VOCAB,444,Cụm từ thực hành,음식물쓰레기를 세척하다,rửa sạch rác thực phẩm
+VOCAB,445,Cụm từ thực hành,음식물쓰레기를 소독하다,khử trùng rác thực phẩm
+VOCAB,446,Cụm từ thực hành,음식물쓰레기를 건조하다,hong khô rác thực phẩm
+VOCAB,447,Cụm từ thực hành,음식물쓰레기를 점검하다,kiểm tra rác thực phẩm
+VOCAB,448,Cụm từ thực hành,행주를 닦다,lau khăn lau
+VOCAB,449,Cụm từ thực hành,행주를 씻다,rửa khăn lau
+VOCAB,450,Cụm từ thực hành,행주를 헹구다,tráng khăn lau
+VOCAB,451,Cụm từ thực hành,행주를 정리하다,dọn/sắp xếp khăn lau
+VOCAB,452,Cụm từ thực hành,행주를 치우다,dọn đi khăn lau
+VOCAB,453,Cụm từ thực hành,행주를 버리다,vứt khăn lau
+VOCAB,454,Cụm từ thực hành,행주를 담다,đựng/múc khăn lau
+VOCAB,455,Cụm từ thực hành,행주를 채우다,bổ sung/đổ đầy khăn lau
+VOCAB,456,Cụm từ thực hành,행주를 비우다,làm trống khăn lau
+VOCAB,457,Cụm từ thực hành,행주를 꺼내다,lấy ra khăn lau
+VOCAB,458,Cụm từ thực hành,행주를 넣다,cho vào khăn lau
+VOCAB,459,Cụm từ thực hành,행주를 옮기다,chuyển khăn lau
+VOCAB,460,Cụm từ thực hành,행주를 확인하다,kiểm tra khăn lau
+VOCAB,461,Cụm từ thực hành,행주를 교체하다,thay khăn lau
+VOCAB,462,Cụm từ thực hành,행주를 보충하다,bổ sung khăn lau
+VOCAB,463,Cụm từ thực hành,행주를 세척하다,rửa sạch khăn lau
+VOCAB,464,Cụm từ thực hành,행주를 소독하다,khử trùng khăn lau
+VOCAB,465,Cụm từ thực hành,행주를 건조하다,hong khô khăn lau
+VOCAB,466,Cụm từ thực hành,행주를 점검하다,kiểm tra khăn lau
+VOCAB,467,Cụm từ thực hành,수세미를 닦다,lau miếng rửa
+VOCAB,468,Cụm từ thực hành,수세미를 씻다,rửa miếng rửa
+VOCAB,469,Cụm từ thực hành,수세미를 헹구다,tráng miếng rửa
+VOCAB,470,Cụm từ thực hành,수세미를 정리하다,dọn/sắp xếp miếng rửa
+VOCAB,471,Cụm từ thực hành,수세미를 치우다,dọn đi miếng rửa
+VOCAB,472,Cụm từ thực hành,수세미를 버리다,vứt miếng rửa
+VOCAB,473,Cụm từ thực hành,수세미를 담다,đựng/múc miếng rửa
+VOCAB,474,Cụm từ thực hành,수세미를 채우다,bổ sung/đổ đầy miếng rửa
+VOCAB,475,Cụm từ thực hành,수세미를 비우다,làm trống miếng rửa
+VOCAB,476,Cụm từ thực hành,수세미를 꺼내다,lấy ra miếng rửa
+VOCAB,477,Cụm từ thực hành,수세미를 넣다,cho vào miếng rửa
+VOCAB,478,Cụm từ thực hành,수세미를 옮기다,chuyển miếng rửa
+VOCAB,479,Cụm từ thực hành,수세미를 확인하다,kiểm tra miếng rửa
+VOCAB,480,Cụm từ thực hành,수세미를 교체하다,thay miếng rửa
+SENTENCE,1,Mẫu câu,오늘은 제가 설거지할게요.,Hôm nay tôi sẽ rửa chén.
+SENTENCE,2,Mẫu câu,접시를 먼저 헹구고 세제로 씻어 주세요.,Hãy tráng đĩa trước rồi rửa bằng nước rửa chén.
+SENTENCE,3,Mẫu câu,수저는 따로 모아서 세척해 주세요.,Hãy gom thìa đũa riêng rồi rửa nhé.
+SENTENCE,4,Mẫu câu,뜨거우니까 조심하세요.,Nóng đó nên hãy cẩn thận.
+SENTENCE,5,Mẫu câu,바닥이 미끄러우니 조심히 걸어 주세요.,Sàn trơn nên hãy đi cẩn thận.
+SENTENCE,6,Mẫu câu,주문 들어왔어요. 테이블 5번이에요.,Có order vào rồi. Bàn số 5.
+SENTENCE,7,Mẫu câu,물 좀 더 가져다 드릴까요?,Tôi mang thêm nước cho bạn nhé?
+SENTENCE,8,Mẫu câu,반찬 리필해 드릴까요?,Bạn muốn thêm món phụ không?
+SENTENCE,9,Mẫu câu,잠시만 기다려 주세요. 곧 준비해 드릴게요.,Vui lòng đợi chút. Tôi sẽ chuẩn bị ngay.
+SENTENCE,10,Mẫu câu,"포장해 드릴까요, 아니면 여기서 드실 건가요?",Bạn mang về hay ăn tại quán ạ?
+SENTENCE,11,Mẫu câu,"계산은 카드로 하실까요, 현금으로 하실까요?",Bạn thanh toán bằng thẻ hay tiền mặt ạ?
+SENTENCE,12,Mẫu câu,유통기한을 확인해 주세요.,Hãy kiểm tra hạn sử dụng.
+SENTENCE,13,Mẫu câu,쓰레기를 분리수거해 주세요.,Hãy phân loại rác nhé.
+SENTENCE,14,Mẫu câu,테이블을 깨끗이 닦고 세팅해 주세요.,Hãy lau sạch bàn và set bàn nhé.
+SENTENCE,15,Mẫu câu,주문하신 음식 나왔습니다.,Món bạn gọi ra rồi ạ.
+SENTENCE,16,Mẫu câu,잠시만요. 확인하고 오겠습니다.,Xin chờ chút. Tôi kiểm tra rồi quay lại.
+SENTENCE,17,Mẫu câu,오늘도 수고하셨어요.,Hôm nay cũng vất vả rồi.
+SENTENCE,18,Mẫu câu,마감 청소 시작합시다.,Bắt đầu dọn đóng ca thôi.
+SENTENCE,19,Mẫu câu,가게 문 닫을 시간이에요.,Đến giờ đóng cửa rồi.
+SENTENCE,20,Mẫu câu,의자를 주방에 넣어 주세요.,Vui lòng cho ghế vào bếp.
+SENTENCE,21,Mẫu câu,컵을 확인해 주세요.,Vui lòng kiểm tra cốc.
+SENTENCE,22,Mẫu câu,물을 깨끗이 닦아 주세요.,Vui lòng lau nước sạch.
+SENTENCE,23,Mẫu câu,수저를 확인해 주세요.,Vui lòng kiểm tra thìa đũa.
+SENTENCE,24,Mẫu câu,의자를 세척실로 옮겨 주세요.,Vui lòng chuyển ghế sang khu rửa.
+SENTENCE,25,Mẫu câu,세제를 깨끗이 닦아 주세요.,Vui lòng lau nước rửa sạch.
+SENTENCE,26,Mẫu câu,반찬을 깨끗이 닦아 주세요.,Vui lòng lau món phụ sạch.
+SENTENCE,27,Mẫu câu,홀을 빨리 정리해 주세요.,Vui lòng dọn khu phục vụ nhanh.
+SENTENCE,28,Mẫu câu,컵을 창고에 넣어 주세요.,Vui lòng cho cốc vào kho.
+SENTENCE,29,Mẫu câu,바닥을 냉장고에 넣어 주세요.,Vui lòng cho sàn vào tủ lạnh.
+SENTENCE,30,Mẫu câu,포장용기를 빨리 정리해 주세요.,Vui lòng dọn hộp mang về nhanh.
+SENTENCE,31,Mẫu câu,소스를 빨리 정리해 주세요.,Vui lòng dọn sốt nhanh.
+SENTENCE,32,Mẫu câu,바닥을 깨끗이 닦아 주세요.,Vui lòng lau sàn sạch.
+SENTENCE,33,Mẫu câu,세제를 빨리 정리해 주세요.,Vui lòng dọn nước rửa nhanh.
+SENTENCE,34,Mẫu câu,냉동실을 확인해 주세요.,Vui lòng kiểm tra ngăn đông.
+SENTENCE,35,Mẫu câu,음식물쓰레기를 확인해 주세요.,Vui lòng kiểm tra rác thực phẩm.
+SENTENCE,36,Mẫu câu,주방을 확인해 주세요.,Vui lòng kiểm tra bếp.
+SENTENCE,37,Mẫu câu,행주를 냉장고에 넣어 주세요.,Vui lòng cho khăn lau vào tủ lạnh.
+SENTENCE,38,Mẫu câu,냅킨을 세척실로 옮겨 주세요.,Vui lòng chuyển khăn giấy sang khu rửa.
+SENTENCE,39,Mẫu câu,접시를 세척실로 옮겨 주세요.,Vui lòng chuyển đĩa sang khu rửa.
+SENTENCE,40,Mẫu câu,수저를 주방으로 옮겨 주세요.,Vui lòng chuyển thìa đũa sang bếp.
+SENTENCE,41,Mẫu câu,수저를 냉동실로 옮겨 주세요.,Vui lòng chuyển thìa đũa sang ngăn đông.
+SENTENCE,42,Mẫu câu,수세미를 확인해 주세요.,Vui lòng kiểm tra miếng rửa.
+SENTENCE,43,Mẫu câu,의자를 홀로 옮겨 주세요.,Vui lòng chuyển ghế sang khu phục vụ.
+SENTENCE,44,Mẫu câu,홀을 냉장고에 넣어 주세요.,Vui lòng cho khu phục vụ vào tủ lạnh.
+SENTENCE,45,Mẫu câu,재료를 확인해 주세요.,Vui lòng kiểm tra nguyên liệu.
+SENTENCE,46,Mẫu câu,카운터를 냉장고에 넣어 주세요.,Vui lòng cho quầy vào tủ lạnh.
+SENTENCE,47,Mẫu câu,쟁반을 빨리 정리해 주세요.,Vui lòng dọn khay nhanh.
+SENTENCE,48,Mẫu câu,컵을 깨끗이 닦아 주세요.,Vui lòng lau cốc sạch.
+SENTENCE,49,Mẫu câu,물을 홀에 넣어 주세요.,Vui lòng cho nước vào khu phục vụ.
+SENTENCE,50,Mẫu câu,홀을 창고로 옮겨 주세요.,Vui lòng chuyển khu phục vụ sang kho.
+SENTENCE,51,Mẫu câu,재료를 확인해 주세요.,Vui lòng kiểm tra nguyên liệu.
+SENTENCE,52,Mẫu câu,의자를 깨끗이 닦아 주세요.,Vui lòng lau ghế sạch.
+SENTENCE,53,Mẫu câu,음식물쓰레기를 빨리 정리해 주세요.,Vui lòng dọn rác thực phẩm nhanh.
+SENTENCE,54,Mẫu câu,냅킨을 빨리 정리해 주세요.,Vui lòng dọn khăn giấy nhanh.
+SENTENCE,55,Mẫu câu,테이블을 냉장고에 넣어 주세요.,Vui lòng cho bàn vào tủ lạnh.
+SENTENCE,56,Mẫu câu,얼음을 빨리 정리해 주세요.,Vui lòng dọn đá nhanh.
+SENTENCE,57,Mẫu câu,재료를 깨끗이 닦아 주세요.,Vui lòng lau nguyên liệu sạch.
+SENTENCE,58,Mẫu câu,소스를 깨끗이 닦아 주세요.,Vui lòng lau sốt sạch.
+SENTENCE,59,Mẫu câu,쟁반을 깨끗이 닦아 주세요.,Vui lòng lau khay sạch.
+SENTENCE,60,Mẫu câu,소독제를 세척실에 넣어 주세요.,Vui lòng cho khử trùng vào khu rửa.
+SENTENCE,61,Mẫu câu,쓰레기를 홀에 넣어 주세요.,Vui lòng cho rác vào khu phục vụ.
+SENTENCE,62,Mẫu câu,포장용기를 깨끗이 닦아 주세요.,Vui lòng lau hộp mang về sạch.
+SENTENCE,63,Mẫu câu,그릇을 확인해 주세요.,Vui lòng kiểm tra bát/tô.
+SENTENCE,64,Mẫu câu,포장용기를 빨리 정리해 주세요.,Vui lòng dọn hộp mang về nhanh.
+SENTENCE,65,Mẫu câu,의자를 빨리 정리해 주세요.,Vui lòng dọn ghế nhanh.
+SENTENCE,66,Mẫu câu,바닥을 깨끗이 닦아 주세요.,Vui lòng lau sàn sạch.
+SENTENCE,67,Mẫu câu,수세미를 깨끗이 닦아 주세요.,Vui lòng lau miếng rửa sạch.
+SENTENCE,68,Mẫu câu,냅킨을 창고로 옮겨 주세요.,Vui lòng chuyển khăn giấy sang kho.
+SENTENCE,69,Mẫu câu,쟁반을 깨끗이 닦아 주세요.,Vui lòng lau khay sạch.
+SENTENCE,70,Mẫu câu,물을 홀에 넣어 주세요.,Vui lòng cho nước vào khu phục vụ.
+SENTENCE,71,Mẫu câu,음식물쓰레기를 빨리 정리해 주세요.,Vui lòng dọn rác thực phẩm nhanh.
+SENTENCE,72,Mẫu câu,주방을 창고에 넣어 주세요.,Vui lòng cho bếp vào kho.
+SENTENCE,73,Mẫu câu,냉동실을 홀에 넣어 주세요.,Vui lòng cho ngăn đông vào khu phục vụ.
+SENTENCE,74,Mẫu câu,그릇을 빨리 정리해 주세요.,Vui lòng dọn bát/tô nhanh.
+SENTENCE,75,Mẫu câu,냅킨을 홀로 옮겨 주세요.,Vui lòng chuyển khăn giấy sang khu phục vụ.
+SENTENCE,76,Mẫu câu,냉동실을 세척실로 옮겨 주세요.,Vui lòng chuyển ngăn đông sang khu rửa.
+SENTENCE,77,Mẫu câu,소스를 창고에 넣어 주세요.,Vui lòng cho sốt vào kho.
+SENTENCE,78,Mẫu câu,테이블을 깨끗이 닦아 주세요.,Vui lòng lau bàn sạch.
+SENTENCE,79,Mẫu câu,테이블을 세척실에 넣어 주세요.,Vui lòng cho bàn vào khu rửa.
+SENTENCE,80,Mẫu câu,홀을 깨끗이 닦아 주세요.,Vui lòng lau khu phục vụ sạch.
+SENTENCE,81,Mẫu câu,재료를 빨리 정리해 주세요.,Vui lòng dọn nguyên liệu nhanh.
+SENTENCE,82,Mẫu câu,냉장고를 깨끗이 닦아 주세요.,Vui lòng lau tủ lạnh sạch.
+SENTENCE,83,Mẫu câu,컵을 확인해 주세요.,Vui lòng kiểm tra cốc.
+SENTENCE,84,Mẫu câu,소독제를 확인해 주세요.,Vui lòng kiểm tra khử trùng.
+SENTENCE,85,Mẫu câu,쟁반을 빨리 정리해 주세요.,Vui lòng dọn khay nhanh.
+SENTENCE,86,Mẫu câu,냉동실을 냉장고에 넣어 주세요.,Vui lòng cho ngăn đông vào tủ lạnh.
+SENTENCE,87,Mẫu câu,행주를 확인해 주세요.,Vui lòng kiểm tra khăn lau.
+SENTENCE,88,Mẫu câu,주방을 홀에 넣어 주세요.,Vui lòng cho bếp vào khu phục vụ.
+SENTENCE,89,Mẫu câu,얼음을 냉장고로 옮겨 주세요.,Vui lòng chuyển đá sang tủ lạnh.
+SENTENCE,90,Mẫu câu,접시를 홀에 넣어 주세요.,Vui lòng cho đĩa vào khu phục vụ.
+SENTENCE,91,Mẫu câu,소독제를 냉동실에 넣어 주세요.,Vui lòng cho khử trùng vào ngăn đông.
+SENTENCE,92,Mẫu câu,냅킨을 홀에 넣어 주세요.,Vui lòng cho khăn giấy vào khu phục vụ.
+SENTENCE,93,Mẫu câu,세제를 깨끗이 닦아 주세요.,Vui lòng lau nước rửa sạch.
+SENTENCE,94,Mẫu câu,세제를 깨끗이 닦아 주세요.,Vui lòng lau nước rửa sạch.
+SENTENCE,95,Mẫu câu,의자를 빨리 정리해 주세요.,Vui lòng dọn ghế nhanh.
+SENTENCE,96,Mẫu câu,수세미를 확인해 주세요.,Vui lòng kiểm tra miếng rửa.
+SENTENCE,97,Mẫu câu,테이블을 빨리 정리해 주세요.,Vui lòng dọn bàn nhanh.
+SENTENCE,98,Mẫu câu,음식물쓰레기를 확인해 주세요.,Vui lòng kiểm tra rác thực phẩm.
+SENTENCE,99,Mẫu câu,냉동실을 깨끗이 닦아 주세요.,Vui lòng lau ngăn đông sạch.
+SENTENCE,100,Mẫu câu,바닥을 주방으로 옮겨 주세요.,Vui lòng chuyển sàn sang bếp.
