@@ -4,26 +4,42 @@ import { useState, useEffect } from "react";
 import { HandwritingPad, type Drawing } from "@/components/HandwritingPad";
 import { scoreHandwriting, type HandwritingScore } from "@/lib/handwriting-score";
 import { useVocabularyStore } from "@/stores/vocabulary";
+import { useProgressStore } from "@/stores/progress";
+import { getRandomElements } from "@/lib/utils";
+import { AnswerQuality } from "@/utils/spaced-repetition";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Sparkles, RotateCcw, CheckCircle2, Circle, Volume2 } from "lucide-react";
 
 export default function WritePage() {
-  const { vocabularyItems, updateProgress, getRandomWord, resetMasteredWords } = useVocabularyStore();
+  const { vocabulary, loadVocabulary } = useVocabularyStore();
+  const { updateVocabProgress } = useProgressStore();
   const [drawing, setDrawing] = useState<Drawing>([]);
   const [currentWord, setCurrentWord] = useState<any>(null);
   const [score, setScore] = useState<HandwritingScore | null>(null);
   const [isScoring, setIsScoring] = useState(false);
   const [showFeedback, setShowFeedback] = useState(false);
 
-  // Lấy từ ngẫu nhiên khi load trang
+  // Get random word function
+  const getRandomWord = () => {
+    if (vocabulary.length === 0) return null;
+    const randomWords = getRandomElements(vocabulary, 1);
+    return randomWords[0] || null;
+  };
+
+  // Load vocabulary on mount
   useEffect(() => {
-    if (vocabularyItems.length > 0) {
+    loadVocabulary();
+  }, [loadVocabulary]);
+
+  // Lấy từ ngẫu nhiên khi có vocabulary
+  useEffect(() => {
+    if (vocabulary.length > 0 && !currentWord) {
       const word = getRandomWord();
       setCurrentWord(word);
     }
-  }, [vocabularyItems, getRandomWord]);
+  }, [vocabulary, currentWord]);
 
   // Phát âm từ
   const speakWord = (text: string) => {
@@ -45,13 +61,15 @@ export default function WritePage() {
       // Delay nhỏ để UI smooth
       await new Promise(resolve => setTimeout(resolve, 300));
       
-      const result = scoreHandwriting(drawing, currentWord.korean);
+      const result = scoreHandwriting(drawing, currentWord.ko);
       setScore(result);
       setShowFeedback(true);
 
       // Cập nhật progress
-      const isCorrect = result.score >= 50; // Ngưỡng pass
-      updateProgress(currentWord.id, isCorrect);
+      const quality: AnswerQuality = result.score >= 80 ? AnswerQuality.EASY : 
+                                   result.score >= 60 ? AnswerQuality.GOOD : 
+                                   result.score >= 40 ? AnswerQuality.HARD : AnswerQuality.FORGOT;
+      updateVocabProgress(currentWord.id, quality);
     } catch (error) {
       console.error("Scoring error:", error);
       setScore({
@@ -124,7 +142,7 @@ export default function WritePage() {
                   Từ cần viết
                 </CardTitle>
                 <Badge variant="outline" className="text-sm">
-                  {currentWord.category}
+                  {currentWord.tags?.[0] || "TOPIK"}
                 </Badge>
               </div>
             </CardHeader>
@@ -133,10 +151,10 @@ export default function WritePage() {
               <div className="text-center">
                 <div className="flex items-center justify-center gap-3 mb-2">
                   <span className="text-6xl md:text-7xl font-bold text-slate-800 tracking-wider">
-                    {currentWord.korean}
+                    {currentWord.ko}
                   </span>
                   <Button
-                    onClick={() => speakWord(currentWord.korean)}
+                    onClick={() => speakWord(currentWord.ko)}
                     variant="ghost"
                     size="sm"
                     className="text-blue-600 hover:text-blue-700 hover:bg-blue-50"
@@ -145,7 +163,7 @@ export default function WritePage() {
                   </Button>
                 </div>
                 <p className="text-lg text-slate-600 font-medium">
-                  {currentWord.vietnamese}
+                  {currentWord.vi}
                 </p>
               </div>
             </CardContent>
@@ -159,7 +177,7 @@ export default function WritePage() {
                   width={320}
                   height={320}
                   onChange={setDrawing}
-                  templateText={currentWord.korean}
+                  templateText={currentWord.ko}
                   showTemplate={true}
                 />
 
