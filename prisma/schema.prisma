@@ -1,0 +1,187 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["fullTextSearch", "fullTextIndex"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// User Model
+model User {
+  id        String   @id @default(uuid())
+  email     String?  @unique
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  userStats    UserStats?
+  vocabulary   Vocabulary[]
+  progress     VocabProgress[]
+  gameResults  GameResult[]
+  
+  @@map("users")
+}
+
+// Vocabulary Model
+model Vocabulary {
+  id          String   @id @default(uuid())
+  stt         Int?
+  ko          String   // Korean word
+  vi          String   // Vietnamese meaning
+  pronunciation String?
+  tags        String[] // Array of tags
+  category    String?
+  difficulty  DifficultyLevel @default(BEGINNER)
+  addedAt     DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  // Relations
+  userId      String?
+  user        User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  progress    VocabProgress[]
+  
+  @@index([ko])
+  @@index([category])
+  @@index([difficulty])
+  @@index([userId])
+  @@map("vocabulary")
+}
+
+// Vocabulary Progress Model (SRS - Spaced Repetition System)
+model VocabProgress {
+  id              String   @id @default(uuid())
+  vocabId         String
+  userId          String?
+  easeFactor      Float    @default(2.5)
+  intervalDays    Int      @default(0)
+  repetitions     Int      @default(0)
+  dueDate         DateTime
+  correctAnswers  Int      @default(0)
+  wrongAnswers    Int      @default(0)
+  lastStudied     DateTime?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  // Relations
+  vocabulary      Vocabulary @relation(fields: [vocabId], references: [id], onDelete: Cascade)
+  user            User?      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@unique([vocabId, userId])
+  @@index([dueDate])
+  @@index([userId])
+  @@map("vocab_progress")
+}
+
+// Game Result Model
+model GameResult {
+  id              Int      @id @default(autoincrement())
+  gameType        GameType
+  score           Int
+  correctAnswers  Int
+  totalQuestions  Int
+  timeSpent       Int      // in seconds
+  playedAt        DateTime @default(now())
+  
+  // Relations
+  userId          String?
+  user            User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([gameType])
+  @@index([playedAt])
+  @@index([userId])
+  @@map("game_results")
+}
+
+// User Statistics Model
+model UserStats {
+  id                 String   @id @default(uuid())
+  userId             String   @unique
+  totalWordsLearned  Int      @default(0)
+  currentStreak      Int      @default(0)
+  bestStreak         Int      @default(0)
+  lastStudyDate      DateTime?
+  totalGamesPlayed   Int      @default(0)
+  averageAccuracy    Float    @default(0)
+  totalTimeSpent     Int      @default(0) // in seconds
+  level              Int      @default(1)
+  xp                 Int      @default(0)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  
+  // Relations
+  user               User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([level])
+  @@index([xp])
+  @@map("user_stats")
+}
+
+// Settings Model
+model Settings {
+  id                 String   @id @default(uuid())
+  userId             String?  @unique
+  
+  // Audio Settings
+  audioEnabled       Boolean  @default(true)
+  audioVoice         String?
+  audioRate          Float    @default(1.0)
+  audioPitch         Float    @default(1.0)
+  audioAutoplay      Boolean  @default(true)
+  
+  // Display Settings
+  theme              String   @default("light")
+  fontSize           String   @default("medium")
+  showRomanization   Boolean  @default(true)
+  showExamples       Boolean  @default(true)
+  
+  // Study Settings
+  dailyGoal          Int      @default(20)
+  notificationsEnabled Boolean @default(true)
+  reminderTime       String?
+  
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  
+  @@map("settings")
+}
+
+// Sentence Examples Model (for context learning)
+model Sentence {
+  id             String   @id @default(uuid())
+  korean         String
+  vietnamese     String
+  romanization   String?
+  vocabIds       String[] // References to vocabulary IDs used in this sentence
+  category       String?
+  difficulty     DifficultyLevel @default(BEGINNER)
+  audioUrl       String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  
+  @@index([category])
+  @@index([difficulty])
+  @@map("sentences")
+}
+
+// Enums
+enum DifficultyLevel {
+  BEGINNER
+  ELEMENTARY
+  INTERMEDIATE
+  ADVANCED
+}
+
+enum GameType {
+  FLASHCARDS
+  QUIZ
+  LISTENING
+  TYPING
+  MATCHING
+  SPEED
+}

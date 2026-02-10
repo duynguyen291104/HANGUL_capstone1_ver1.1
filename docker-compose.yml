@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: topik-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: topik_user
+      POSTGRES_PASSWORD: topik_password_2024
+      POSTGRES_DB: topik_learning_db
+      POSTGRES_INITDB_ARGS: "--encoding=UTF-8 --lc-collate=C --lc-ctype=C"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/init-db.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U topik_user -d topik_learning_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - topik-network
+
+  # pgAdmin (Optional - for database management UI)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: topik-pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@topik.local
+      PGADMIN_DEFAULT_PASSWORD: admin123
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - topik-network
+    profiles:
+      - dev
+
+  # Redis for caching (Optional - for future scaling)
+  redis:
+    image: redis:7-alpine
+    container_name: topik-redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    networks:
+      - topik-network
+    profiles:
+      - dev
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+
+networks:
+  topik-network:
+    driver: bridge
