@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Vocabulary API</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .result { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🧪 Test Vocabulary API</h1>
+    
+    <button onclick="testAPI()">Test API (limit=100000)</button>
+    <button onclick="testSmall()">Test API (limit=10)</button>
+    <button onclick="clearResults()">Clear Results</button>
+    
+    <div id="results"></div>
+    
+    <script>
+        async function testAPI() {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML += '<div class="result">🔄 Loading from /api/vocabulary?limit=100000...</div>';
+            
+            try {
+                const response = await fetch('/api/vocabulary?limit=100000');
+                const data = await response.json();
+                
+                resultsDiv.innerHTML += `
+                    <div class="result success">
+                        <strong>✅ SUCCESS</strong><br>
+                        Total in DB: ${data.pagination.total}<br>
+                        Returned: ${data.data.length} items<br>
+                        First item: ${data.data[0]?.ko} - ${data.data[0]?.vi}
+                    </div>
+                `;
+                
+                console.log('API Response:', data);
+            } catch (error) {
+                resultsDiv.innerHTML += `
+                    <div class="result error">
+                        <strong>❌ ERROR</strong><br>
+                        ${error.message}
+                    </div>
+                `;
+                console.error('Error:', error);
+            }
+        }
+        
+        async function testSmall() {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML += '<div class="result">🔄 Loading from /api/vocabulary?limit=10...</div>';
+            
+            try {
+                const response = await fetch('/api/vocabulary?limit=10');
+                const data = await response.json();
+                
+                resultsDiv.innerHTML += `
+                    <div class="result success">
+                        <strong>✅ SUCCESS</strong><br>
+                        Total in DB: ${data.pagination.total}<br>
+                        Returned: ${data.data.length} items
+                    </div>
+                `;
+                
+                console.log('API Response:', data);
+            } catch (error) {
+                resultsDiv.innerHTML += `
+                    <div class="result error">
+                        <strong>❌ ERROR</strong><br>
+                        ${error.message}
+                    </div>
+                `;
+                console.error('Error:', error);
+            }
+        }
+        
+        function clearResults() {
+            document.getElementById('results').innerHTML = '';
+        }
+    </script>
+</body>
+</html>

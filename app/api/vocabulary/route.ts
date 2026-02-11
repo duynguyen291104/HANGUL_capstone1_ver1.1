@@ -57,30 +57,65 @@ export async function GET(request: NextRequest) {
   }
 }
 
-// POST /api/vocabulary - Thêm từ vựng mới
+// POST /api/vocabulary - Thêm từ vựng mới (hỗ trợ cả single và bulk insert)
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { ko, vi, category, difficulty, tags } = body;
+    
+    // Check if it's a bulk insert (array) or single insert
+    if (Array.isArray(body)) {
+      // Bulk insert
+      const validItems = body.filter(item => item.ko && item.vi);
+      
+      if (validItems.length === 0) {
+        return NextResponse.json(
+          { error: 'No valid vocabulary items provided' },
+          { status: 400 }
+        );
+      }
 
-    if (!ko || !vi) {
+      const vocabularyItems = await prisma.vocabulary.createMany({
+        data: validItems.map(item => ({
+          ko: item.ko,
+          vi: item.vi,
+          category: item.category || null,
+          difficulty: item.difficulty?.toUpperCase() || 'BEGINNER',
+          tags: item.tags || [],
+          stt: item.stt || null,
+        })),
+        skipDuplicates: true,
+      });
+
       return NextResponse.json(
-        { error: 'Korean word and Vietnamese meaning are required' },
-        { status: 400 }
+        { 
+          message: `Successfully added ${vocabularyItems.count} vocabulary items`,
+          count: vocabularyItems.count 
+        }, 
+        { status: 201 }
       );
+    } else {
+      // Single insert
+      const { ko, vi, category, difficulty, tags } = body;
+
+      if (!ko || !vi) {
+        return NextResponse.json(
+          { error: 'Korean word and Vietnamese meaning are required' },
+          { status: 400 }
+        );
+      }
+
+      const vocabulary = await prisma.vocabulary.create({
+        data: {
+          ko,
+          vi,
+          category,
+          difficulty: difficulty?.toUpperCase() || 'BEGINNER',
+          tags: tags || [],
+        },
+      });
+
+      return NextResponse.json(vocabulary, { status: 201 });
     }
-
-    const vocabulary = await prisma.vocabulary.create({
-      data: {
-        ko,
-        vi,
-        category,
-        difficulty: difficulty?.toUpperCase() || 'BEGINNER',
-        tags: tags || [],
-      },
-    });
-
-    return NextResponse.json(vocabulary, { status: 201 });
   } catch (error) {
     console.error('Error creating vocabulary:', error);
     return NextResponse.json(
